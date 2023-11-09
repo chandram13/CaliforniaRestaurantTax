@@ -1,7 +1,7 @@
 //
 //  main.swift
 //  CaliforniaRestaurantTax
-//
+// MAIN FILE
 //  Created by Marvish Chandra on 11/9/23.
 //
 
