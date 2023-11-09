@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1476F0102AFD8D7000868AEF /* ActualCaliforniaRestaurantTaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476F00F2AFD8D7000868AEF /* ActualCaliforniaRestaurantTaxApp.swift */; };
+		1476F0122AFD8D7000868AEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476F0112AFD8D7000868AEF /* ContentView.swift */; };
+		1476F0142AFD8D7000868AEF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476F0132AFD8D7000868AEF /* Item.swift */; };
+		1476F0162AFD8D7200868AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1476F0152AFD8D7200868AEF /* Assets.xcassets */; };
+		1476F01A2AFD8D7200868AEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1476F0192AFD8D7200868AEF /* Preview Assets.xcassets */; };
+		1476F0242AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476F0232AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests.swift */; };
+		1476F02E2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476F02D2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests.swift */; };
+		1476F0302AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476F02F2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITestsLaunchTests.swift */; };
+		1476F03D2AFD8D8300868AEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476F03C2AFD8D8300868AEF /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1476F0202AFD8D7300868AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1476F0042AFD8D7000868AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1476F00B2AFD8D7000868AEF;
+			remoteInfo = ActualCaliforniaRestaurantTax;
+		};
+		1476F02A2AFD8D7300868AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1476F0042AFD8D7000868AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1476F00B2AFD8D7000868AEF;
+			remoteInfo = ActualCaliforniaRestaurantTax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1476F00C2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActualCaliforniaRestaurantTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1476F00F2AFD8D7000868AEF /* ActualCaliforniaRestaurantTaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualCaliforniaRestaurantTaxApp.swift; sourceTree = "<group>"; };
+		1476F0112AFD8D7000868AEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1476F0132AFD8D7000868AEF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1476F0152AFD8D7200868AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1476F0172AFD8D7200868AEF /* ActualCaliforniaRestaurantTax.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ActualCaliforniaRestaurantTax.entitlements; sourceTree = "<group>"; };
+		1476F0192AFD8D7200868AEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1476F01F2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActualCaliforniaRestaurantTaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1476F0232AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualCaliforniaRestaurantTaxTests.swift; sourceTree = "<group>"; };
+		1476F0292AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActualCaliforniaRestaurantTaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1476F02D2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualCaliforniaRestaurantTaxUITests.swift; sourceTree = "<group>"; };
+		1476F02F2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualCaliforniaRestaurantTaxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1476F03C2AFD8D8300868AEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1476F0092AFD8D7000868AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1476F01C2AFD8D7300868AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1476F0262AFD8D7300868AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1476F0032AFD8D7000868AEF = {
+			isa = PBXGroup;
+			children = (
+				1476F00E2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax */,
+				1476F0222AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests */,
+				1476F02C2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests */,
+				1476F00D2AFD8D7000868AEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1476F00D2AFD8D7000868AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1476F00C2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax.app */,
+				1476F01F2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests.xctest */,
+				1476F0292AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1476F00E2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax */ = {
+			isa = PBXGroup;
+			children = (
+				1476F00F2AFD8D7000868AEF /* ActualCaliforniaRestaurantTaxApp.swift */,
+				1476F03C2AFD8D8300868AEF /* main.swift */,
+				1476F0112AFD8D7000868AEF /* ContentView.swift */,
+				1476F0132AFD8D7000868AEF /* Item.swift */,
+				1476F0152AFD8D7200868AEF /* Assets.xcassets */,
+				1476F0172AFD8D7200868AEF /* ActualCaliforniaRestaurantTax.entitlements */,
+				1476F0182AFD8D7200868AEF /* Preview Content */,
+			);
+			path = ActualCaliforniaRestaurantTax;
+			sourceTree = "<group>";
+		};
+		1476F0182AFD8D7200868AEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1476F0192AFD8D7200868AEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1476F0222AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				1476F0232AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests.swift */,
+			);
+			path = ActualCaliforniaRestaurantTaxTests;
+			sourceTree = "<group>";
+		};
+		1476F02C2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1476F02D2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests.swift */,
+				1476F02F2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITestsLaunchTests.swift */,
+			);
+			path = ActualCaliforniaRestaurantTaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1476F00B2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1476F0332AFD8D7300868AEF /* Build configuration list for PBXNativeTarget "ActualCaliforniaRestaurantTax" */;
+			buildPhases = (
+				1476F0082AFD8D7000868AEF /* Sources */,
+				1476F0092AFD8D7000868AEF /* Frameworks */,
+				1476F00A2AFD8D7000868AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActualCaliforniaRestaurantTax;
+			productName = ActualCaliforniaRestaurantTax;
+			productReference = 1476F00C2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1476F01E2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1476F0362AFD8D7300868AEF /* Build configuration list for PBXNativeTarget "ActualCaliforniaRestaurantTaxTests" */;
+			buildPhases = (
+				1476F01B2AFD8D7300868AEF /* Sources */,
+				1476F01C2AFD8D7300868AEF /* Frameworks */,
+				1476F01D2AFD8D7300868AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1476F0212AFD8D7300868AEF /* PBXTargetDependency */,
+			);
+			name = ActualCaliforniaRestaurantTaxTests;
+			productName = ActualCaliforniaRestaurantTaxTests;
+			productReference = 1476F01F2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1476F0282AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1476F0392AFD8D7300868AEF /* Build configuration list for PBXNativeTarget "ActualCaliforniaRestaurantTaxUITests" */;
+			buildPhases = (
+				1476F0252AFD8D7300868AEF /* Sources */,
+				1476F0262AFD8D7300868AEF /* Frameworks */,
+				1476F0272AFD8D7300868AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1476F02B2AFD8D7300868AEF /* PBXTargetDependency */,
+			);
+			name = ActualCaliforniaRestaurantTaxUITests;
+			productName = ActualCaliforniaRestaurantTaxUITests;
+			productReference = 1476F0292AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1476F0042AFD8D7000868AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					1476F00B2AFD8D7000868AEF = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					1476F01E2AFD8D7300868AEF = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 1476F00B2AFD8D7000868AEF;
+					};
+					1476F0282AFD8D7300868AEF = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 1476F00B2AFD8D7000868AEF;
+					};
+				};
+			};
+			buildConfigurationList = 1476F0072AFD8D7000868AEF /* Build configuration list for PBXProject "ActualCaliforniaRestaurantTax" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1476F0032AFD8D7000868AEF;
+			productRefGroup = 1476F00D2AFD8D7000868AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1476F00B2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax */,
+				1476F01E2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests */,
+				1476F0282AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1476F00A2AFD8D7000868AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1476F01A2AFD8D7200868AEF /* Preview Assets.xcassets in Resources */,
+				1476F0162AFD8D7200868AEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1476F01D2AFD8D7300868AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1476F0272AFD8D7300868AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1476F0082AFD8D7000868AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1476F0122AFD8D7000868AEF /* ContentView.swift in Sources */,
+				1476F0142AFD8D7000868AEF /* Item.swift in Sources */,
+				1476F03D2AFD8D8300868AEF /* main.swift in Sources */,
+				1476F0102AFD8D7000868AEF /* ActualCaliforniaRestaurantTaxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1476F01B2AFD8D7300868AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1476F0242AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1476F0252AFD8D7300868AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1476F02E2AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITests.swift in Sources */,
+				1476F0302AFD8D7300868AEF /* ActualCaliforniaRestaurantTaxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1476F0212AFD8D7300868AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1476F00B2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax */;
+			targetProxy = 1476F0202AFD8D7300868AEF /* PBXContainerItemProxy */;
+		};
+		1476F02B2AFD8D7300868AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1476F00B2AFD8D7000868AEF /* ActualCaliforniaRestaurantTax */;
+			targetProxy = 1476F02A2AFD8D7300868AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1476F0312AFD8D7300868AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1476F0322AFD8D7300868AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1476F0342AFD8D7300868AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ActualCaliforniaRestaurantTax/ActualCaliforniaRestaurantTax.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ActualCaliforniaRestaurantTax/Preview Content\"";
+				DEVELOPMENT_TEAM = HSXU3EE57S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.ActualCaliforniaRestaurantTax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1476F0352AFD8D7300868AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ActualCaliforniaRestaurantTax/ActualCaliforniaRestaurantTax.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ActualCaliforniaRestaurantTax/Preview Content\"";
+				DEVELOPMENT_TEAM = HSXU3EE57S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.ActualCaliforniaRestaurantTax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1476F0372AFD8D7300868AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HSXU3EE57S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.ActualCaliforniaRestaurantTaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualCaliforniaRestaurantTax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ActualCaliforniaRestaurantTax";
+			};
+			name = Debug;
+		};
+		1476F0382AFD8D7300868AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HSXU3EE57S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.ActualCaliforniaRestaurantTaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualCaliforniaRestaurantTax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ActualCaliforniaRestaurantTax";
+			};
+			name = Release;
+		};
+		1476F03A2AFD8D7300868AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HSXU3EE57S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.ActualCaliforniaRestaurantTaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ActualCaliforniaRestaurantTax;
+			};
+			name = Debug;
+		};
+		1476F03B2AFD8D7300868AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HSXU3EE57S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.ActualCaliforniaRestaurantTaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ActualCaliforniaRestaurantTax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1476F0072AFD8D7000868AEF /* Build configuration list for PBXProject "ActualCaliforniaRestaurantTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1476F0312AFD8D7300868AEF /* Debug */,
+				1476F0322AFD8D7300868AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1476F0332AFD8D7300868AEF /* Build configuration list for PBXNativeTarget "ActualCaliforniaRestaurantTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1476F0342AFD8D7300868AEF /* Debug */,
+				1476F0352AFD8D7300868AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1476F0362AFD8D7300868AEF /* Build configuration list for PBXNativeTarget "ActualCaliforniaRestaurantTaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1476F0372AFD8D7300868AEF /* Debug */,
+				1476F0382AFD8D7300868AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1476F0392AFD8D7300868AEF /* Build configuration list for PBXNativeTarget "ActualCaliforniaRestaurantTaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1476F03A2AFD8D7300868AEF /* Debug */,
+				1476F03B2AFD8D7300868AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1476F0042AFD8D7000868AEF /* Project object */;
+}
